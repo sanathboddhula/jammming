@@ -4,15 +4,16 @@ import "./Track.css";
 
 export class Track extends React.Component {
   constuctor(props) {
-    super(props);
+    //super(props);
     this.addTrack = this.addTrack.bind(this);
+    this.removeTrack = this.removeTrack.bind(this);
   }
 
   renderAction() {
     //prop is passed in
     if (this.props.isRemoval) {
       //render button with negative symbol
-      return <button className="Track-action">-</button>;
+      return <button className="Track-action" onClick={this.removeTrack}>-</button>;
     } else {
       //render button with plus symbol
       return (
@@ -25,6 +26,10 @@ export class Track extends React.Component {
 
   addTrack() {
     this.props.onAdd(this.props.track);
+  }
+
+  removeTrack() {
+    this.props.onRemove(this.props.track);
   }
 
   render() {
