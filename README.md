@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Jammming
+
+## Description
+A ReactJS app which allows users to search for songs/artist and create a personalized playlist in Spotify.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Credits
+CodeAcademy Front-End Engineer Capstone Project
